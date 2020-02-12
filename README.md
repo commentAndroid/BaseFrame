@@ -18,8 +18,9 @@ samples, guidance on mobile development, and a full API reference.
 ## 修改方式
 
 根据实际项目的路径修改 gradle.properties 对应的属性  
--[aar.baseframe=/Volumes/sdcard/project/t-arkAndroid/BaseFrame/baseframe/repository]
+aar.baseframe=/Volumes/sdcard/project/t-arkAndroid/BaseFrame/baseframe/repository
+修改版本号  
 
 
 
-## 
+## 引用方法 

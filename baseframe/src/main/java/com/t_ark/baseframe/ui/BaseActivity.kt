@@ -7,6 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
  * 描述:所有Activity的基类，用于处理一些公共方法
  * 作者:支豪亮
  */
-class BaseActivity :AppCompatActivity(){
+open class BaseActivity :AppCompatActivity(){
 
 }

@@ -8,6 +8,6 @@ import androidx.fragment.app.Fragment
  * 作者:支豪亮
  */
 
-class BaseFragment :Fragment(){
+open class BaseFragment :Fragment(){
 
 }

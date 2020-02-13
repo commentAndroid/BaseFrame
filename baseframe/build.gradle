@@ -24,6 +24,13 @@ android {
         }
     }
 
+    repositories {
+        flatDir {
+            dirs 'libs'
+            file('config.gradle')
+        }
+    }
+
 }
 
 dependencies {
@@ -39,7 +46,7 @@ dependencies {
 ext {
     PUBLISH_GROUP_ID = 'com.t_ark'
     PUBLISH_ARTIFACT_ID = 'baseframe'
-    PUBLISH_VERSION = '0.0.3'
+    PUBLISH_VERSION = '0.0.4'
 }
 
 uploadArchives {

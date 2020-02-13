@@ -17,10 +17,19 @@ samples, guidance on mobile development, and a full API reference.
 
 ## 修改方式
 
-根据实际项目的路径修改 gradle.properties 对应的属性  
-aar.baseframe=/Volumes/sdcard/project/t-arkAndroid/BaseFrame/baseframe/repository
-修改版本号升级
-
-
+##### 根据实际项目的路径修改 gradle.properties 对应的属性  
+aar.baseframe=/Volumes/sdcard/project/t-arkAndroid/BaseFrame/baseframe/repository  
+##### 修改版本号升级  
+PUBLISH_VERSION = '0.0.2'
 
 ## 引用方法 
+##### 在根目录的build.gradle中加入
+allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+##### 在所要引入的moudel加入
+implementation 'androidx.core:core-ktx:1.1.0'
+
